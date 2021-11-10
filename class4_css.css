@@ -1,0 +1,32 @@
+:root{
+  --lightGreen:rgb(103, 167, 124);
+}
+
+.input {
+    background-color: var(--lightGreen)
+}
+
+input.input{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+*{
+    font-family: myfont
+}
+
+h1{
+    font-family: myfont_head;
+}
+
+@font-face {
+    font-family: myfont_head ;
+    src: url(Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf)
+}
+
+
+@font-face {
+    font-family: myfont ;
+    src: url(Open_Sans/static/OpenSans/OpenSans-LightItalic.ttf)
+}
+
+
